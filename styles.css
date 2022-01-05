@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 5vh;
+
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    
+}
+
+.container{
+
+    margin: 2rem auto;   
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width: 100%;    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card{
+padding: 2.5rem;
+text-align: center;
+}
+
+.card-title{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%) ;
+    width: 100%;
+    height: 5.5rem;
+
+    font-size: 1rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+
+    border-radius: 8px;      
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+    font-size: .85rem;
+    font-weight: 900;
+}
+
+.plan a:hover{
+    color: rgb(144, 106, 248);
+    text-decoration: none;
+}
+
+.anual-plan{
+    width: 60%;
+
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    
+    display: flex;
+    align-items: center;       
+}
+
+
+span{
+    color:hsl(224, 23%, 55%) ;
+    font-weight: 500;
+}
+
+.buttons{
+margin-top: 1.75rem;
+display: flex;
+flex-direction: column;
+}
+
+.pay-button{
+height: 2.5rem;
+background-color: hsl(245, 75%, 52%);
+
+color: white;
+text-decoration: none;
+font-family: inherit;
+font-weight: 900;
+
+border: none;
+border-radius: 8px;
+box-shadow: 8px 8px 20px hsla(245, 75%, 52%, 0.26);
+
+}
+
+.pay-button:hover{
+    background-color: rgb(144, 106, 248) ;
+}
+.pay-button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.cancel-button{
+color: inherit;
+background-color: inherit;
+height: 3rem;
+text-decoration: none;
+padding: 1.5rem;
+font-family: inherit;
+font-weight: 900;
+border: none;
+
+
+
+}
+.cancel-button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 300px;
+        height: 500px;
+        font-size: .75rem;
+
+    }
+    .card{
+        padding: 1.75rem;
+    }
+    .card-title{
+        font-size: 1.25rem;
+        margin-bottom: .75rem;
+    }
+    .plan {
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.buttons{
+margin-top: 1.5rem;
+display: flex;
+flex-direction: column;
+}
+}
