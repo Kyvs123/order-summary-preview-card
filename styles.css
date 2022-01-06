@@ -85,6 +85,9 @@ text-align: center;
     align-items: center;       
 }
 
+.anual-plan h2{
+    font-size: 1rem;
+}
 
 span{
     color:hsl(224, 23%, 55%) ;
