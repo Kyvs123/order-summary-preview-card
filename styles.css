@@ -22,7 +22,7 @@ body{
 
     margin: 2rem auto;   
     width: 400px;
-    height: 600px;
+    height: 620px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -92,14 +92,15 @@ span{
 }
 
 .buttons{
-margin-top: 1.75rem;
+margin-top: 1.5rem;
 display: flex;
 flex-direction: column;
 }
 
-.pay-button{
+/* .pay-button{
 height: 2.5rem;
 background-color: hsl(245, 75%, 52%);
+text-align: center;
 
 color: white;
 text-decoration: none;
@@ -110,16 +111,25 @@ border: none;
 border-radius: 8px;
 box-shadow: 8px 8px 20px hsla(245, 75%, 52%, 0.26);
 
+} */
+
+.pay-button{
+    width: 100%;
+    height: 3rem;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: .75rem;
+    box-shadow: 8px 8px 20px hsla(245, 75%, 52%, 0.26);
+    
 }
 
 .pay-button:hover{
     background-color: rgb(144, 106, 248) ;
 }
-.pay-button a{
-    text-decoration: none;
-    color: white;
-   
-}
+
 .cancel-button{
 color: inherit;
 background-color: inherit;
@@ -129,11 +139,9 @@ padding: 1.5rem;
 font-family: inherit;
 font-weight: 900;
 border: none;
-
-
-
 }
-.cancel-button a{
+
+.cancel-button {
     text-decoration: none;
     color: inherit;
 }
