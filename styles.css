@@ -100,22 +100,6 @@ display: flex;
 flex-direction: column;
 }
 
-/* .pay-button{
-height: 2.5rem;
-background-color: hsl(245, 75%, 52%);
-text-align: center;
-
-color: white;
-text-decoration: none;
-font-family: inherit;
-font-weight: 900;
-
-border: none;
-border-radius: 8px;
-box-shadow: 8px 8px 20px hsla(245, 75%, 52%, 0.26);
-
-} */
-
 .pay-button{
     width: 100%;
     height: 3rem;
@@ -147,6 +131,11 @@ border: none;
 .cancel-button {
     text-decoration: none;
     color: inherit;
+}
+
+footer{
+    text-align: center;
+    font-size: .75rem;
 }
 
 @media (max-width: 600px){
